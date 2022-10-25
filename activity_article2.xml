@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article2"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:id="@+id/scrolldown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Much a Phantom Energy Load Is Costing You"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You may be spending hundreds per year on vampires appliances"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A phantom load, which is also known as standby power or vampire power, is the electricity consumed by an electronic device while it is turned off or in standby mode."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modern houses are filled with appliances that consume power even when they're off. Phantom loads maintain your television settings and allow the unit to power up quickly when you press the 'on' button. They keep the clocks going on your DVR player, stove, and microwave."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phantom loads also keep your wireless network running even when you're not online, and they make sure your wireless printer is ready to print whenever you are."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All this electronic readiness comes with a price tag, measured in electricity use. In fact, a joint study between the U.S. Environmental Protection Agency and several other environmental agencies around the globe put that price at a full 10% of your monthly energy bill."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can lower your electric bill by eliminating these phantom loads. Here's a guide to what electronics and appliances may be drawing electricity when they're ostensibly turned off."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Energy Vampire Appliances and Electronics"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It's difficult to purchase a home appliance these days that isn't an energy vampire with a phantom load. Many appliances that are designed to be plugged in continuously use electricity continuously, even if it's just a small amount."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your television equipment, the TV itself, the cable box, and your DVR unit, likely draws the most phantom electricity. While different brands vary widely in their phantom power consumption, the U.S. Department of Energy has found that on standby:"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Your DVR unit may draw as much as 30 watts.\n
+- Your television may draw up to 45 watts.\n
+- Your laptop computer (in sleep mode) could draw up to 55 watts.\n
+- Your cable or DSL modem may use up to 8 watts continuously.\n
+- Your cable or satellite TV set-top box likely uses between 25 and 35 watts continuously.\n
+- Your garage door opener uses between two and seven watts.\n
+- Your surge protector uses around five or six watts."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Much This Costs You"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It's tricky to put a price tag on these energy vampires since the total cost to you depends on how many of them you have in your home, and on the price of electricity in your area."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If, for example, you have a relatively simple home with few electronics (perhaps only a cable modem, a laptop, and a small television), your total phantom electricity draw might not exceed 80 to 90 watts. In total, that might cost you around $7 to $7.50 per month in 'extra' electricity."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On the other hand, you might love owning the latest appliances and have a wide range of electronic equipment, with a large television in most rooms, full DVR and cable boxes, a wireless laser printer and a home theater system. In that case, your total phantom electricity draw might be in the range of 200 to 300 watts (or even more), which could cost you upwards of $25 to $30 per month on your electric bill just in energy vampire costs."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="Article: https://www.thespruce.com/what-is-a-phantom-load-and-how-much-is-it-costing-you-1388190"
+                android:textSize="10sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

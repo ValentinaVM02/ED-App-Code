@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article3"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:id="@+id/scrolldown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Average household will pay €290 a month for energy with price cap"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The average household will pay around €290 a month for gas and electricity next year under the government’s proposed price cap."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details of the deal agreed between the finance ministry and energy companies still have to be finalised, but the plan is expected to save households around €2,000 a year."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The government will set a maximum unit price for both fuels that will cover the first 1,200 m3 of gas and 2,400 kWh of electricity – the annual fuel consumption for an average household."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The exact rates have not been finalised, but are expected to be around 70 cents for a unit of electricity and €1.50 per cubic metre of gas. That would result in an annual bill of €3,480 for the average household."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Any energy used above that level will be charged at an uncapped rate based on market prices. Gas providers will be compensated by the government for the difference between the capped price and the market price."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The measure is expected to cost the government at least €5.4 billion. A separate deal has been struck to cover the last two months of 2022 so that the savings will apply for most of the coming winter."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The government is also paying €1,300 compensation to the lowest earners this year and next year and raising housing and healthcare benefits to offset the extra cost. One complicating factor is that poorer families tend to consume relatively more energy because their homes are less well insulated."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="Article: https://www.dutchnews.nl/news/2022/09/average-household-will-pay-e290-a-month-for-energy-with-price-cap/"
+                android:textSize="10sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

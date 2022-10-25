@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:text="Hey Jane!"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="10dp"
+        android:text="Eindhoven, The Netherlands"
+        android:textColor="#C1D669"
+        android:textSize="14sp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devices"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/location"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/button_left"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/devices"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="#61BFB8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_electric_bolt_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button_middle"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/devices"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="#61BFB8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button_right"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/devices"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="#61BFB8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/phantasma_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relevant information"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/button_left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/searchbar"
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search article"
+        android:padding="15dp"
+        android:width="318dp"
+        android:textColor="#3878"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="10dp"
+        android:backgroundTint="#DFF6F5"
+        android:background="@drawable/round_corners"
+        android:layout_below="@id/info"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchbar"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/menubar">
+
+        <LinearLayout
+            android:id="@+id/scrolldown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/article1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image1"
+                android:layout_weight="1"
+                android:includeFontPadding="false"/>
+            <ImageButton
+                android:id="@+id/article2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image2"
+                android:layout_marginBottom="10dp"/>
+            <ImageButton
+                android:id="@+id/article3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_1"
+                android:background="@drawable/round_corners"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/menubar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"/>
+</RelativeLayout>

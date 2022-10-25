@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article1"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:id="@+id/scrolldown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What's phantom power and how can you track it?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Even if you think you keep energy efficiency front of mind, you could be wasting energy in the background."
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phantom power, also called standby power, refers to the energy that’s wasted around your home when devices are plugged in and using power, but you're not actively using them."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Think about all the devices currently plugged in at home: laptops, gaming consoles, TVs, kitchen appliances, alarm clocks, even electric toothbrushes. The average home has dozens of items plugged in at any given time. What's more, 75 per cent of the electricity these devices consume is used when they aren't even on. That's a lot of energy. In fact, all that phantom power can add up to 10 per cent of a home's energy costs."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Track your power"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you want to test how much power your appliances and devices are using in standby mode, you can buy an electricity usage monitor device. These devices allow you to plug in various tech or appliances and check how much power they’re actually using, even in standby mode."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can also log on to your local hydro company's website to track your hourly (smart meter) data to see how much you are using at night and when you are not home."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keep an eye on electronics"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Appliances all over the home can draw phantom power. In some cases, such as with smart light bulbs, it’s pretty minimal. Entertainment-related devices, like set-top boxes for recording TV shows and gaming consoles, can drain a lot of energy when they’re just in standby mode."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Depending on the model and its settings, some gaming consoles use a significant amount of energy in standby mode, when you're not even getting enjoyment out of them. Wouldn’t you rather spend your money on a new game instead of keeping your console running when you’re not around?"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The same is true for other appliances you might not think about, including small kitchen appliances."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="So, how can I save?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once you know how much phantom power you’re using, you can find ways to limit phantom power’s impact on your energy bill."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The easiest way to save on phantom power is to simply unplug your devices when they're not in use. For devices that aren't so easy to unplug, you can use power bars to manage what's actually on. You can even find power bars with built-in timers or auto shut-off capabilities, motion sensors, and infrared (IR) sensors (which automatically cut power when they've been out of use for a certain length of time) to make sure you're not falling victim to phantom power."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="With more and more smart devices connected to your network, phantom power is likely more of an issue than it was just five years ago. Switch to small network equipment, like routers, that are ENERGY STAR®-certified to use less power."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="Article: https://saveonenergy.ca/For-Your-Home/Advice-and-Tips/Phantom-power#:~:text=Phantom%20power%2C%20also%20called%20standby,re%20not%20actively%20using%20them."
+                android:textSize="10sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
